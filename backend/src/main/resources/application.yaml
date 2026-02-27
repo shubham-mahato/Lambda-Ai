@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: lambda
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/lambda
+    username: postgres
+    password: your_password
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
