@@ -20,7 +20,7 @@ import java.time.Instant;
 @Builder
 @IdClass(ProjectMemberId.class)
 @FieldDefaults(level = AccessLevel.PRIVATE)
-public class ProjectMembers {
+public class ProjectMember {
 
     @Id
     @ManyToOne(fetch = FetchType.LAZY)
