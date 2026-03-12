@@ -19,7 +19,7 @@ public class ProjectController {
 
     @GetMapping
     public ResponseEntity<List<ProejctSummaryResponse>> getAllMyProjects(){
-        Long userId = 1L;
+        Long userId = 1L; /* TODO: update with Spring Security */
         return ResponseEntity.ok(projectService.getAllMyProejcts(userId));
     }
 
