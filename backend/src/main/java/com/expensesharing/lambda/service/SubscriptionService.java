@@ -13,5 +13,5 @@ public interface SubscriptionService {
 
     CheckoutResponse createCheckoutSessionUrl(CheckoutRequest request, Long userId);
 
-    @Nullable PortalResponse openCustomerPortal(Long userId);
+    PortalResponse openCustomerPortal(Long userId);
 }
